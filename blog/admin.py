@@ -13,9 +13,5 @@ class PostAdmin(SummernoteModelAdmin):
     summernote_fields = ('content',)
 
 # Register your models here.
-from .models import Post
-from .models import Comment
-
-# Register your models here.
 # admin.site.register(Post)
 admin.site.register(Comment)
